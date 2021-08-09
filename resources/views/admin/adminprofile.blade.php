@@ -52,7 +52,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h5></h5>
-                            <h6 class="mt-1"><i class="fas fa-graduation-cap text-secondary fa-lg"></i> Works at {{ $user->details->work}}</h6>
+                            <h6 class="mt-1"><i class="fas fa-graduation-cap text-secondary fa-lg"></i> Works at {{ $userdetails->details->work}}</h6>
                             <h6 class="mb-2"><i class="fas fa-graduation-cap text-secondary fa-lg"></i> Studied at {{ $user->details->high_school}}</h6>
                             <h6 class="mb-2"><i class="fas fa-graduation-cap text-secondary fa-lg"></i> Studied at {{ $user->details->university}}</h6>
                             <h6 class="mb-2"><i class="fas fa-home text-secondary fa-lg"></i> Lives in {{ $user->details->city}}</h6>
